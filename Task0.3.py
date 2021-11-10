@@ -1,5 +1,5 @@
 def hello(par):
-    print('Hello', par)
-    return
+    print('Hello!', par)
+
 
 
