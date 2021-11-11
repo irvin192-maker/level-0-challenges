@@ -13,9 +13,7 @@ def time(val):
         print(str(floor) + ' hours')
     elif mod == 1 and floor > 1:
         print(str(floor) + ' hours', str(mod) + ' minute')
-
-
-
-
-
-
+    elif mod == 1 and floor < 1:
+        print(f'{mod} minute')
+    elif mod > 1:
+        print(f'{mod} minutes')
